@@ -1,0 +1,17 @@
+
+public class TreeSetDemo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Strudent stu  = new Strudent(100,"aayam", "usa");
+		Strudent stu1 = new Strudent(47, "Uniq", "usa");
+		System.out.println(stu);
+		
+		for(String s : )
+		{
+			
+		}
+	}
+
+}

@@ -1,0 +1,24 @@
+package java8;
+
+interface Addition {
+	public void add();
+}
+
+interface Substraction
+{
+	public void sub(int fno, int sno);
+}
+public class LambdaEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+// with labda
+		Addition a = () -> {
+			System.out.println("Additoin operation");
+		};
+
+		a.add();
+		System.out.println("=====================================");
+	}
+
+}

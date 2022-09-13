@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    
+    <bean class="com.uniam._SF.pojo" id = "emp" >
+    <property name="eno"> <value> 1</value></property>
+    <property name="ename"> <value>uniq</value></property>
+    <property name="esal"> <value> 100000</value></property>
+    <property name="designation"> <value> Team Leader</value></property>
+    <property name="city"> <value>Artesia</value></property>
+    <property name="houseNo"> <value> 11537 Dena St </value></property>
+    </bean>
+    
+  <!--   
+    <beans class="com.uniam._SF.pojo"  id = "emp" >
+    <property name= "eno"> <value> 1</value> </property>
+   	<property name= "enmae"> <value> uniq</value></property>
+   	<property name ="esal"> <value> 100000</value> </property>
+   	<property name = "designation"> <value> Team Leader</value> </property>
+   	<property name = "city"> <value> Artesia </value></property>
+   	<property name = "houseNo"> <value> 11547 dena st </value> </property>
+    </beans>
+    
+     <beans class="com.uniam._SF.pojo"  id = "emp1" >
+    <property name= "eno"> <value> 2</value> </property>
+   	<property name= "enmae"> <value> aayam</value></property>
+   	<property name ="esal"> <value> 300000</value> </property>
+   	<property name = "designation"> <value> Data Analytics </value> </property>
+   	<property name = "city"> <value> Cerritos </value></property>
+   	<property name = "houseNo"> <value> 11347 beach st </value> </property>
+    </beans>
+    
+    
+       <beans class="com.uniam._SF.pojo"  id = "emp2" >
+    <property name= "eno"> <value> 3</value> </property>
+   	<property name= "enmae"> <value> aadim</value></property>
+   	<property name ="esal"> <value> 500000</value> </property>
+   	<property name = "designation"> <value> Software Developoer </value> </property>
+   	<property name = "city"> <value> Cerritos </value></property>
+   	<property name = "houseNo"> <value> 11547 beach st </value> </property>
+    </beans> -->
+    
+    </beans>
+    
+    
+    

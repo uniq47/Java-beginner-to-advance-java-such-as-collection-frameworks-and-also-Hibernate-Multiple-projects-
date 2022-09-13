@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    
+    <bean class="com.uniam._SF.pojo.Employee" abstract ="true" id ="absemp">
+     <property name="designation"> <value> Software Developer</value></property>
+   <property name="city"> <value> Artesia</value></property>
+   <property name="houseNo"> <value>11234 cerritos Ave</value></property>
+    </bean>
+    
+    
+    
+   <bean class ="com.uniam._SF.pojo.Employee" id ="emp" parent ="absemp">
+   <property name="eno"> <value>47</value></property>
+   <property name="ename"> <value> Upendra</value></property>
+   <property name="esal"><value>200000</value></property>
+ 
+   </bean>
+   
+   <bean class ="com.uniam._SF.pojo.Employee" id ="emp1">
+   <property name="eno"> <value>47</value></property>
+   <property name="ename"> <value> Upendra</value></property>
+   <property name="esal"><value>200000</value></property>
+   <property name="designation"> <value> Software Developer</value></property>
+   <property name="city"> <value> Artesia</value></property>
+   <property name="houseNo"> <value>11234 cerritos Ave</value></property>
+   
+    </bean>
+    
+     <bean class ="com.uniam._SF.pojo.Employee" id ="emp2">
+   <property name="eno"> <value>47</value></property>
+   <property name="ename"> <value> Upendra</value></property>
+   <property name="esal"><value>200000</value></property>
+   <property name="designation"> <value> Software Developer</value></property>
+   <property name="city"> <value> Artesia</value></property>
+   <property name="houseNo"> <value>11234 cerritos Ave</value></property>
+   
+    </bean>
+     
+     
+    </beans>
+    
+    
+    

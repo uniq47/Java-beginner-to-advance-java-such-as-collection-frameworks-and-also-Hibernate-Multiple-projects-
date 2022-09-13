@@ -1,0 +1,37 @@
+package practice;
+
+import java.util.Scanner;
+
+public class flowcontrol8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//Write a program to print the color name, based on color code. If color code in not valid then print "Invalid Code".
+		//R->Red, B->Blue, G->Green, O->Orange, Y->Yellow, W->White.
+		//Switch Statement 
+		System.out.println("Enter the colore code");
+		Scanner sc = new Scanner(System.in);	
+		String colorCode = sc.toString();
+		//System.out.println("Blue");
+		
+		//switch(colorCode)
+		//{
+		//	case "B":
+		//		System.out.println("Blue");
+	//		case "G":
+		//		System.out.println("Green");
+		//	case "O":
+		//		System.out.println("Orange");
+		//	case "Y":
+		//		System.out.println("Yellow");
+		//	case "W":
+		//		System.out.println("White");
+		//	default :
+			//	System.out.println("Invalid Code");
+				
+		}
+		
+		
+	}
+
+

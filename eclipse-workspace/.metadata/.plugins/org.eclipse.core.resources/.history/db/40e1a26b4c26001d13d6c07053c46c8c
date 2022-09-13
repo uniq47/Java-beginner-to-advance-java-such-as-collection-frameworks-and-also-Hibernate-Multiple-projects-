@@ -1,0 +1,28 @@
+package java8;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ForEachExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		List<String> gameList= new ArrayList<String>();
+		gameList.add("Football");
+		gameList.add("Cricket");
+		gameList.add("Hockey");
+		gameList.add("chess");
+		
+		
+		//forLoop
+		// for() 1.5
+		//iterator()
+		//listIterator()
+		// foreach
+		
+		
+		gameList.forEach(g->System.out.println(g));
+	}
+
+}

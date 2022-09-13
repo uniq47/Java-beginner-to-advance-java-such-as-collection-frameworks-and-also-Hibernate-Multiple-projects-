@@ -1,0 +1,10 @@
+package seocnd_case;
+
+public class EmployeeCLient {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

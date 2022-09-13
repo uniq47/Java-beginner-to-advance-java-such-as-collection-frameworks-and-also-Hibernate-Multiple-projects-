@@ -1,0 +1,15 @@
+ import java.util.HashMap;
+ 
+ public class HashMapDemo
+ {
+	 public static void main(String [] args)
+	 {
+		 HashMap<Integer,String> hm = new HashMap<>();
+		 hm.put(47, "Uniq");
+		 hm.put(21, "aayam");
+		 hm.put(1, "Shanti");
+		 hm.put(2, "Upendra");
+		 
+		 System.out.println(hm);
+	 }
+ }

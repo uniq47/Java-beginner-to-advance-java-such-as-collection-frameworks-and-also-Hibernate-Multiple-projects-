@@ -1,0 +1,26 @@
+package day9;
+
+public class SwitchEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		byte b = 50;
+		
+		switch(b)
+		{
+			case 10:
+			System.out.println("Hello bro");
+			
+			case 50:
+			System.out.println("yo");
+	
+		}
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.uniam;
+
+public class NativeSQL {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

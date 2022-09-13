@@ -1,0 +1,35 @@
+package com.sms.dao.impl;
+
+import java.util.Scanner;
+
+import com.sms.pojo.Student;
+
+public class StudentImpl {
+
+	Scanner sc = new Scanner(System.in);
+	Student addStudent[] = new Student[3];
+
+	public void addStd() {
+		for (int i = 0; i < addStudent.length; ++i) {
+			System.out.println("Enter the student's number");
+			int sno = sc.nextInt();
+			System.out.println("Enter the student's Name");
+			String sname = sc.next();
+			System.out.println("Enter the Student Address");
+			String sadd = sc.next();
+			// object creation time we are trying to initilize the value;
+			Student student = new Student(sno, sname, sadd);
+			addStudent[i] = student;
+			System.out.println("Student added sucessfully");
+		}
+	}
+
+	public void vieweAllStd() {
+		for(Student i: addStudent)
+		{
+			System.out.print(i);
+		}
+		
+	}
+
+}

@@ -1,0 +1,30 @@
+package com.uniam;
+
+import java.util.List;
+
+import com.uniam.entity.Student;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import org.hibernate.query.NativeQuery;
+
+public class NativeSQLEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ 
+		Session ses = SessionUtility.getSession();
+		Transaction tx = ses.beginTransaction();
+		
+		NativeQuery query = ses.createSQLQuery("select s.* from student s Where sno = 1");
+		//Entity Queries mapped with Entity class name
+		query.addEntity(Student.class );
+		
+		List <Student> stdRecords = query.getResultList();
+		
+		stdRecords.stream().forEach(s->System.out.println(s.getSno()+"\t"+ s.getSname()+"\t" + s.getSadd()));
+		
+	}
+
+}

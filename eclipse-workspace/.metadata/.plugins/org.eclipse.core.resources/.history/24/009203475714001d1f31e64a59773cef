@@ -1,0 +1,28 @@
+package seocnd_case;
+
+public abstclass Employee {
+
+	private int eno;
+	private int ename;
+	private int dname;
+	public int getEno() {
+		return eno;
+	}
+	public void setEno(int eno) {
+		this.eno = eno;
+	}
+	public int getEname() {
+		return ename;
+	}
+	public void setEname(int ename) {
+		this.ename = ename;
+	}
+	public int getDname() {
+		return dname;
+	}
+	public void setDname(int dname) {
+		this.dname = dname;
+	}
+	
+public abstract double CalcualteSalary(String dname);
+}

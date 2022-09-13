@@ -1,0 +1,19 @@
+package Session2;
+
+public class conditionalstatement {
+	public static void main(String[] args)
+	{
+		System.out.println("Helloooo");
+		
+		int age = 27;
+		
+		if (age% 2 ==0) 
+		{
+			System.out.println("even");
+		}
+		else 
+		{
+			System.err.println("odd ");
+		}
+	}
+}

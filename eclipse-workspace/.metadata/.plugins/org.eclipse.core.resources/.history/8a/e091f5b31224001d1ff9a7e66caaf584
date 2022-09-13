@@ -1,0 +1,15 @@
+package java5;
+
+public enum Direction {
+
+	NORTH,SOUTH,WEST;
+	
+	final static int [] ar = {5,4,6,2};
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Direction d = Direction.NORTH;
+		System.out.println(d);
+	}
+
+}

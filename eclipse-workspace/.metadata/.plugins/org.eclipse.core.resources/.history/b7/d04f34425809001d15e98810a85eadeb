@@ -1,0 +1,14 @@
+package day9;
+
+public class WhileDemo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+boolean flag= true;
+while(flag)
+{
+	System.out.println("Weekend bro ");
+}
+	}
+
+}

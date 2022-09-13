@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class ArrayListDemo6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ArrayList<String> al = new ArrayList<>();
+		al.add("Uniq");
+		al.add("Aayam");
+		al.add("Shanti");
+		al.add("Upendra");
+		
+		System.out.println(al);
+		Collections.sort(al);
+				
+	}
+
+}

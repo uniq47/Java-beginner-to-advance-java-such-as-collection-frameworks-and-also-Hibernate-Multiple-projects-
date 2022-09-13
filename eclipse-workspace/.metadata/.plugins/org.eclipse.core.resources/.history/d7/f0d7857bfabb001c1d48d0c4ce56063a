@@ -1,0 +1,17 @@
+package Session2;
+
+public class conditionalstatement {
+	public static void main(String[] args)
+	{
+		System.out.println("Helloooo");
+		
+		int x = 10;
+		int y =20;
+		int z = x+y;
+		
+		if (z>10) 
+		{
+			System.out.println("Good Morning ");
+		}
+	}
+}

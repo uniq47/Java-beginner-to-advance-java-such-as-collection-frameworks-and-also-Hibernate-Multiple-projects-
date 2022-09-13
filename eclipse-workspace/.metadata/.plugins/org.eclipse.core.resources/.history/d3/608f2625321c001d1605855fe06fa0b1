@@ -1,0 +1,36 @@
+import java.util.TreeSet;
+
+import javax.swing.text.html.HTMLDocument.Iterator;
+
+public class TreeSetDemo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		TreeSet<String>tr= new TreeSet<>();
+	
+		tr.add("aayam");
+		tr.add("aadim");
+		tr.add("unique");
+		tr.add("shanti");
+		tr.add("upendra");
+		tr.add("agni");
+		tr.add("anima");
+		tr.add("achuta");
+		System.out.println(tr);
+		
+		for(String str: tr)
+		{
+			System.out.println(str);
+		}
+		
+		Iterator<String> itr = tr.iterator();
+		while(itr.hasNext())
+		{
+			String name = itr.next();
+			System.out.println(name);
+		}
+		
+	}
+
+}

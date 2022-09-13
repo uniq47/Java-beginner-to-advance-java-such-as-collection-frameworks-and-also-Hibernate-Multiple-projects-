@@ -1,0 +1,21 @@
+package com.uniam;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.core.io.ClassPathResource;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+
+//Instatiate the container
+    	BeanFactory factory = new XmlBeanFactory(new ClassPathResource("com\\uniam\\config\\spring.xm"))
+    	//loads the config file, using get bean method create the bean class method and inject the value inside the object 
+    			
+    	
+    }
+}

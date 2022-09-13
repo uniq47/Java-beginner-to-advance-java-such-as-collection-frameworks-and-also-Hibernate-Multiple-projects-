@@ -1,0 +1,16 @@
+package java5;
+
+public class EnumExample {
+
+	public enum Colors{Red, Blue, Yellow }
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		for(Colors c : Colors.values())
+		{
+			System.out.println(c);
+		}
+	}
+
+}

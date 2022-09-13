@@ -1,0 +1,12 @@
+
+public class BookClient {
+
+	public static void main(String[] args) {
+
+		Book bk = new Book(1, "let Us C ", "yaswant kanetkar", "BPM", 8);
+		
+		
+
+	}
+
+}

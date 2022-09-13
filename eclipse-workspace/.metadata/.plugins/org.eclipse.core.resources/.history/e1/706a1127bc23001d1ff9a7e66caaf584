@@ -1,0 +1,15 @@
+package java5;
+
+public class ForEachExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int arr[] = {12,35,21,36};
+		for(int i : arr)
+		{
+			System.out.println(i);
+		}
+	}
+
+}

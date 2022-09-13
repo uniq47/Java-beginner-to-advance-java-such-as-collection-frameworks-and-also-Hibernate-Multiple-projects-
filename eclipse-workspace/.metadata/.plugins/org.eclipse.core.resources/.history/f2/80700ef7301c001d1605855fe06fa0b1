@@ -1,0 +1,17 @@
+import java.util.TreeSet;
+
+public class TreeSetDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		TreeSet<Integer> tr = new TreeSet<>();
+		tr.add(100);
+		tr.add(10);
+		tr.add(200);
+		tr.add(20);
+		tr.add(102);
+		System.out.println(tr);
+		}
+
+}

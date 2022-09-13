@@ -1,0 +1,19 @@
+import java.util.TreeMap;
+
+public class TreeMapDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		TreeMap <Integer, String> tm = new TreeMap<>();
+		tm.put(47, "uniq");
+		tm.put(21, "aayam");
+		tm.put(1, "Shanti");
+		tm.put(100, "Upendra");
+		System.out.println(tm);
+		System.out.println(tm.firstEntry());
+		System.out.println(tm.lastEntry());
+		System.out.println(tm.firstKey());
+	}
+
+}

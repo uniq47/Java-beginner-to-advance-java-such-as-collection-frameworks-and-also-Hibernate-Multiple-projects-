@@ -1,0 +1,44 @@
+
+public class Employee {
+
+	private int eno;
+	private int ename;
+	private int eadd;
+	public Employee(int eno, int ename, int eadd) {
+		super();
+		this.eno = eno;
+		this.ename = ename;
+		this.eadd = eadd;
+	}
+	
+	public Employee()
+	{
+		super();
+	}
+
+	public int getEno() {
+		return eno;
+	}
+
+	public void setEno(int eno) {
+		this.eno = eno;
+	}
+
+	public int getEname() {
+		return ename;
+	}
+
+	public void setEname(int ename) {
+		this.ename = ename;
+	}
+
+	public int getEadd() {
+		return eadd;
+	}
+
+	public void setEadd(int eadd) {
+		this.eadd = eadd;
+	}
+	
+	
+}

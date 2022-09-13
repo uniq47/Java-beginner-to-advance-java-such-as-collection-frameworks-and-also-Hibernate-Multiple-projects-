@@ -1,0 +1,33 @@
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class ArrayListDemo3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ArrayList<Integer> al = new ArrayList<Integer>();
+		al.add(100);
+		al.add(10);
+		al.add(200);
+		al.add(100);
+		al.add(300);
+		
+		System.out.println(al);
+		// we can iterate using for loop
+		// we can iterate using for each
+		// like this we can use iterate() listIterator();	
+		Iterator<Integer> iterator = al.iterator();
+		while(iterator.hasNext())
+		{
+			
+		Integer obj = iterator.next();
+		System.out.println(obj);
+		
+		}
+	
+	}
+		
+	
+
+}

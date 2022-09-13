@@ -1,0 +1,35 @@
+package practicingPackage;
+
+import java.util.*;
+
+public class Constructorex {
+
+	String student;
+
+	Constructorex(String student)
+	{
+		System.out.println("This is the constructor");
+		this.student = student;
+		
+	}
+	
+	void display() 
+	{
+		System.out.println(student);
+	}
+	
+	
+	public static void main(String[] args) {
+		
+	
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number");
+		String std = sc.toString();
+		String sd = std;
+		Constructorex student = new Constructorex(std);
+		student.display();
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    
+    <bean class ="com.uniam.pojo.Empl"  id= "emp">
+    <property name="eno"> <value>1</value></property>
+    <property name="ename"> <value>uniq</value></property>
+    <property name="esal"> <value> 2000000</value></property>
+    <property name="designation"> <value> Team Leader</value></property>
+    <property name="city"><value> Artesia</value></property>
+    <property name="houseNo"> <value>11537 dena st </value></property>
+    </bean>
+    
+    
+    
+    
+    
+    </beans>

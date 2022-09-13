@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+
+public class ArrayListDemo21 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ArrayList<String>al = new ArrayList<>();
+		al.add("Uniq");
+		al.add("aayam");
+		al.add("Unique");
+		al.add("Shanti");	
+		
+	String str= al.get(0);
+	System.out.println(str);
+				
+	}
+
+}

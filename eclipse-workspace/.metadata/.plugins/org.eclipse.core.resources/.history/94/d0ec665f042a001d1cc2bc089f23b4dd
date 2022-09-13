@@ -1,0 +1,14 @@
+package com.uniam;
+
+import org.hibernate.Session;
+
+public class NativeSQLEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ 
+		Session ses = SessionUtility.getSession();
+		
+	}
+
+}

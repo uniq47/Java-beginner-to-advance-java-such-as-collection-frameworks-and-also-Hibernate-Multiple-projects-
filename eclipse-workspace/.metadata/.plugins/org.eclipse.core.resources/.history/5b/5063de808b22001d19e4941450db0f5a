@@ -1,0 +1,17 @@
+import java.util.HashMap;
+
+public class IdentityHashMap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		HashMap hm = new HashMap();
+		Integer i1 = new Integer(10);
+		Integer i2 = new Integer(10);
+		System.out.println(i1);
+		hm.put(i1, "uniq");
+		hm.put(i2,"aayam");
+		System.out.println(hm);// duplicate key not allowed 
+	}
+
+}

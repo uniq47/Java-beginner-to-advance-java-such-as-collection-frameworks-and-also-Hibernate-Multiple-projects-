@@ -1,0 +1,21 @@
+import java.util.TreeSet;
+
+public class TreeSetDemo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		TreeSet<String>tr= new TreeSet<>();
+		tr.add("aadim");
+		tr.add("aayam");
+		tr.add("unique");
+		tr.add("shanti");
+		tr.add("upendra");
+		tr.add("agni");
+		tr.add("anima");
+		tr.add("achuta");
+		System.out.println(tr);
+		
+	}
+
+}

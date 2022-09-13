@@ -1,0 +1,32 @@
+package com.uniam;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class RetriveEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+// Step1: read the Configuratoin file 
+    	
+    	Configuration cfg = new Configuration();
+    	//cfg.configure("");
+    	System.out.println(cfg.getProperty("hibernate.connection.driver_class"));
+    	cfg.configure("com\\uniam\\config\\hibernate.cfg.xml");
+    	System.out.println(cfg.getProperty("hibernate.connection.driver_class"));
+    	
+    	// step 2 : Build Session Factory
+    	
+    	SessionFactory factory = cfg.buildSessionFactory();
+    	
+    	// step 3 : Create a Session Object 
+    	
+    	Session ses = factory.openSession();
+    	//everysessoin transaction is disabled,
+    	Transaction tx = ses.beginTransaction();
+	}
+
+}

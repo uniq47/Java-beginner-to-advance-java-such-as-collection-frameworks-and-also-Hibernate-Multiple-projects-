@@ -1,0 +1,42 @@
+package com.uniam;
+
+import com.uniam.entity.Employee;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class UpdateAndInsertex {
+
+	public static void main(String[] args) {
+		
+		
+		
+		 // Step1: read the Configuratoin file 
+		Configuration cfg = new Configuration();
+    	cfg.configure("com\\uniam\\config\\hibernate.cfg.xml");
+
+    	
+    	// step 2 : Build Session Factory
+    	
+    	SessionFactory factory = cfg.buildSessionFactory();
+    	
+    	// step 3 : Create a Session Object 
+    	
+    	Session ses = factory.openSession();
+    	//everysessoin transaction is disabled,
+    	Transaction tx = ses.beginTransaction();
+    	
+    	Employee emp = new Employee();
+    	emp.setEno(4);
+    	emp.setFirstname("Upendra");
+    	emp.setLastname("Sapkota");
+    	
+    	Employee employee = (Employee) ses.merge(emp);
+    	
+    	System.out.println(employee.getEno()+"\t" + employee.getFirstname()+ "\t" + emp.getLastname());
+    	tx.commit();
+	}
+
+}

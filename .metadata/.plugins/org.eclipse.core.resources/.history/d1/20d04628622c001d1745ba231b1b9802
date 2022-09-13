@@ -1,0 +1,17 @@
+
+
+public class Car {
+
+	
+	static Car c = new Car();
+	
+	private Car()
+	{
+		
+	}
+	
+	public static Car getInstace()
+	{
+		return c;
+	}
+}

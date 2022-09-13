@@ -1,0 +1,19 @@
+package java5;
+
+public class VaragsEx {
+	
+	static void  display(String ... values)
+	{
+		System.out.println("... Display  Method Invoked ... ");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		display();
+		display("yooo", "What's up from uniq");
+		display("Whats the plan");
+		display("Seee yahhh"); 
+	}
+
+}

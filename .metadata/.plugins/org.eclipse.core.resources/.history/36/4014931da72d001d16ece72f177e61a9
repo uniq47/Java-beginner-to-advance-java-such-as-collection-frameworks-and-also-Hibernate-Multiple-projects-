@@ -1,0 +1,5 @@
+package com.uniam.config;
+
+public class SpringConfig {
+
+}

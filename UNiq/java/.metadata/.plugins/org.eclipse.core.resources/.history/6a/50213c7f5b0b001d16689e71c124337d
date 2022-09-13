@@ -1,0 +1,16 @@
+package practice;
+
+public class practice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int count;
+		 for(int i =0;i<5;i++) {
+			 for(int j = 5; 2<j; --j) 
+				 System.out.print("*");
+			 System.out.println();
+		 }
+		 
+	}
+
+}

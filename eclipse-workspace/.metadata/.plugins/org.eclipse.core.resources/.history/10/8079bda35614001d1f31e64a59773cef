@@ -1,0 +1,11 @@
+package seocnd_case;
+
+public class AccountsDepartMent extends Employee {
+
+	@Override
+	public double CalcualteSalary(String dname) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
